@@ -55,6 +55,7 @@ MOUSEKEY_ENABLE = yes		# Mouse keys(+4700)
 EXTRAKEY_ENABLE = yes		# Audio control and System control(+450)
 CONSOLE_ENABLE = yes		# Console for debug(+400)
 COMMAND_ENABLE = yes		# Commands for debug and configuration
+KEY_LOCK_ENABLE = yes
 KEYBOARD_LOCK_ENABLE = yes	# Allow locking of keyboard via magic key
 # Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
 # SLEEP_LED_ENABLE = yes	# Breathing sleep LED during USB suspend
@@ -63,6 +64,6 @@ NKRO_ENABLE = yes			# USB Nkey Rollover - if this doesn't work, see here: https:
 # MIDI_ENABLE = YES			# MIDI controls
 # UNICODE_ENABLE = YES		# Unicode
 # BLUETOOTH_ENABLE = yes	# Enable Bluetooth with the Adafruit EZ-Key HID
-# SWAP_HANDS_ENABLE = yes
+SWAP_HANDS_ENABLE = yes
 
 LAYOUTS = 60_ansi 60_iso 60_ansi_split_bs_rshift
